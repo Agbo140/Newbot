@@ -78,8 +78,8 @@ module.exports = {
         }),
     ],
     devServer: {
-        port: 80,
-        host: 'localbot.binary.sx',
+        port: 3000,  // Changed this to 3000 (instead of 80)
+        host: 'localhost',
         open: true,
         historyApiFallback: true,
         client: {
